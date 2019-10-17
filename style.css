@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    letter-spacing:.3rem;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:100%;
+}
+
+body{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background-color:#5f9ea0;
+    padding:2rem 3rem;
+}
+
+
+.container-todos-left{
+
+    margin-top:3.5rem;
+}
+
+.container-todos,
+.container-submit,
+.container-search {
+    margin-top:2rem;
+}
+
+ 
+
+h1{
+    font-size:2rem;
+    
+}
+
+h4{
+    font-size:1.5rem;
+    
+}
+
+p{
+    font-size:1rem;
+    letter-spacing:.08rem;
+    padding: .5rem 0;
+}
+
+
+
+.form-add-todo{
+    width:100%;
+    
+    display:flex;
+    flex-direction:column;
+    
+
+}
+
+.addtodo{
+    color:#5f9ea0;
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 0;
+    border:none;
+    cursor:pointer;
+    padding:0;
+    align-self: flex-end;
+    margin-top:1rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.addtodo:active,
+.addtodo:focus{
+   outline:transparent;
+}
+
+.input-add-todo{
+    margin:0;
+    width:100%;
+}
+
+input{
+    width: 100%;
+    padding: .5rem 0;
+    margin: 1rem 0;
+    color: #143e3f;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+input:active,
+input:focus{
+    outline: transparent;
+    border: 2px solid #ffe600;
+    
+}
